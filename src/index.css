@@ -12,7 +12,8 @@
   --white: #FFFFFF;
   --frontEnd: #6BD1FF;
   --backEnd: #00C86F;
-  --red: #ff0000
+  --red: #ff0000;
+  --gray: #808080;
 }
 
 html,
@@ -24,3 +25,10 @@ body {
 a {
   color: inherit;
 } 
+
+#root {
+min-height: calc(100vh - var(--bodyPaddingTop));
+display: flex;
+flex-direction: column;
+
+}
